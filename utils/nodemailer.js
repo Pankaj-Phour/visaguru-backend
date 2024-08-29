@@ -37,7 +37,7 @@ const option2 = (data) =>{
         from : process.env.MAIL,
         to : data.email,
         replyTo:process.env.MAIL2,
-        subject : `Hi ${data.name}, your query is sent to Go Realtors.`,
+        subject : `Hi ${data.name}, your query is sent to Visa Guru.`,
         html: template2(data)
     }
 }
